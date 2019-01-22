@@ -1,8 +1,8 @@
 class Anyenv < Formula
   desc "All in one for **env"
   homepage "https://anyenv.github.io/"
-  url "https://github.com/anyenv/anyenv/archive/v0.1.2.tar.gz"
-  sha256 "7c9b01926f246d07cd007b86d34b2abd6df357a8743733c8d55ab5a8bef46271"
+  url "https://github.com/anyenv/anyenv/archive/v1.0.0.tar.gz"
+  sha256 "f922f3d6f319dcbf36a16f392c9d48c2f6338d0f0cc087ca965a8f1bc12a83a4"
 
   def install
     prefix.install %w[bin completions libexec]
